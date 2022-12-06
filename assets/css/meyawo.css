@@ -12,6 +12,7 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+
 @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
 :root {
   --blue: #1e549f;
@@ -786,7 +787,14 @@ pre code {
       -ms-flex-order: 3;
           order: 3;
 }
+.hitext{
+  font-family: 'poppins', cursive;
 
+}
+.nametext{
+  font-family: 'Lobster', cursive;
+
+}
 .order-4 {
   -webkit-box-ordinal-group: 5;
   -webkit-order: 4;
@@ -11188,6 +11196,7 @@ p {
 
 /*/ portfolio wrapper */
 .portfolio-card {
+  
   display: block;
   position: relative;
   overflow: hidden;
@@ -11195,6 +11204,7 @@ p {
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
+  
 }
 
 .portfolio-card .portfolio-card-overlay {
@@ -11635,7 +11645,9 @@ pre .code {
     transition: none;
   }
 }
-
+.logo{
+  font-family: 'Lobster', cursive;
+}
 .custom-navbar .logo {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
   text-decoration: none;
