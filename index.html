@@ -7,6 +7,7 @@
     <meta name="description" content="Start your development with Meyawo landing page.">
     <meta name="author" content="Devcrud">
     <title>Samiul Alim- Full Stack Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="/assets/imgs/favicon2.png" type="image/x-icon">
@@ -44,9 +45,7 @@
                 <li class="item">
                     <a class="link" href="#contact">Contact</a>
                 </li>
-                <li class="item ml-md-3">
-                    <a href="components.html" class="btn btn-primary">Components</a>
-                </li>
+                
             </ul>
             <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
                 <div class="hamburger-box">
@@ -57,16 +56,15 @@
     </nav><!-- End of Page Navbar -->
 
     <!-- page header -->
-    <header id="home" class="header">
+    <header id="home" class="header ">
         <div class="overlay"></div>
         <div class="header-content container">
-            <h1 class="header-title">
+            <h1 class="header-title animate__bounceInDown">
                 <span class="up hitext">HI! I'm </span>
-                <span class="down nametext">Samiul Alim</span>
+                <span class="down nametext animate__bounceInDown">Samiul Alim</span>
             </h1>
             <p class="header-subtitle">FULL STACK WEB DEVELOPER</p>
-
-            <a href="#portfolio" class="btn btn-primary">Visit My Works</a>
+            <a href="./assets/docs/Samiul_MERN_Dev_Resume.pdf" class="btn btn-primary">Download Resume</a>
         </div>
     </header><!-- end of page header -->
 
@@ -90,8 +88,7 @@
 
 
                     </p>
-                    <a href="/assets/docs/Samiul_MERN_Dev_Resume.pdf"
-                        class="btn-rounded btn btn-outline-primary mt-4">Download CV</a>
+                    <a href="#portfolio" class="btn-rounded btn btn-outline-primary mt-4">View Projects</a>
                 </div>
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
@@ -103,7 +100,7 @@
             <p class="section-subtitle">What I Do ?</p>
             <h6 class="section-title mb-6">Service</h6>
             <!-- row -->
-            <div  class="row">
+            <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
@@ -164,20 +161,20 @@
             <!-- row -->
             <div class="row">
                 <div class="col-md-4">
-                    <a href="#" class="portfolio-card shadow-lg rounded-lg">
+                    <a href="https://saveyou-29081.web.app/" class="portfolio-card shadow-lg rounded-lg">
                         <img src="assets/imgs/1.png" class="portfolio-card-img"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
                                 <h4>Marketplace</h4>
-                                    <p class="font-weight-normal">React, NodeJs, MongoDB </p>
-                                    
+                                <p class="font-weight-normal">React, NodeJs, MongoDB </p>
+
                             </span>
                         </span>
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="portfolio-card shadow-lg rounded-lg">
+                    <a href="https://globaldesk-5386b.web.app/" class="portfolio-card shadow-lg rounded-lg">
                         <img class="portfolio-card-img" src="assets/imgs/2.png" class="img-responsive rounded"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         <span class="portfolio-card-overlay">
@@ -189,7 +186,7 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="portfolio-card shadow-lg rounded-lg">
+                    <a href="https://educare-4950e.web.app/" class="portfolio-card shadow-lg rounded-lg">
                         <img class="portfolio-card-img" src="assets/imgs/3.png" class="img-responsive rounded"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         <span class="portfolio-card-overlay">
@@ -409,16 +406,16 @@
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>
             <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form action="https://formspree.io/f/xwkzgaog" method="POST" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
                         <input type="text" size="50" class="form-control" placeholder="Your Name" required>
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email" requried>
+                        <input type="email" name="email" class="form-control" placeholder="Enter Email" requried>
                     </div>
                     <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6" class="form-control"
+                        <textarea name="message" id="comment" rows="6" class="form-control"
                             placeholder="Write Something"></textarea>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
@@ -438,10 +435,10 @@
             <div class="social-links text-right m-auto ml-sm-auto">
                 <a href="https://www.linkedin.com/in/itssamiulalim/" class="link"><i class="ti-linkedin"></i></a>
                 <a href="https://github.com/samiulalimseam" class="link"><i class="ti-github"></i></a>
-                
-                
+
+
                 <a href="mailto:samiulseam1@gmail.com" class="link"><i class="ti-email"></i></a>
-                
+
             </div>
         </footer>
     </div> <!-- end of page footer -->
